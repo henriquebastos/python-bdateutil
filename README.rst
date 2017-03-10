@@ -27,7 +27,7 @@ Example Usage
 
     # Increment date by two business days
     >>> from datetime import date
-    >>> from bdateutil relativedelta
+    >>> from bdateutil import relativedelta
     >>> date(2016, 6, 30) + relativedelta(bdays=+2)
     datetime.date(2016, 7, 4)
 
